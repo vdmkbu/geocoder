@@ -1,0 +1,11 @@
+{
+    "name": "vdmkbu/geolocator",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Vadim Korostelev",
+            "email": "vdmkbu@ya.ru"
+        }
+    ],
+    "require": {}
+}
