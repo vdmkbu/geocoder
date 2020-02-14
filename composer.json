@@ -12,5 +12,13 @@
             "Vdmkbu\\Geolocator\\": "src/"
         }
     },
-    "require": {}
+    "autoload-dev": {
+        "psr-4": {
+            "Vdmkbu\\Geolocator\\Tests\\": "tests/"
+        }
+    },
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "^5.7"
+    }
 }

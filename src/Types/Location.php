@@ -7,7 +7,7 @@ class Location
 {
     protected $location;
 
-    public function __construct($location)
+    public function __construct(\StdClass $location)
     {
         $this->location = $location;
     }

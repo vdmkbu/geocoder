@@ -11,6 +11,10 @@ class Address implements GeoObject
 
     public function __construct($address)
     {
+        if (empty($address)) {
+            throw new \InvalidArgumentException('Empty address');
+        }
+
         $this->address = $address;
     }
 

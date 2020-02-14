@@ -11,6 +11,10 @@ class Point implements GeoObject
 
     public function __construct($point)
     {
+        if (empty($point)) {
+            throw new \InvalidArgumentException('Empty point');
+        }
+
         $this->point = $point;
     }
 

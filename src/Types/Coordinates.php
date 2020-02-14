@@ -10,6 +10,10 @@ class Coordinates
 
     public function __construct($lat, $lng)
     {
+        if (empty($lat) || empty($lng)) {
+            throw new \InvalidArgumentException('Empty coordinates');
+        }
+
         $this->lat = $lat;
         $this->lng = $lng;
     }
