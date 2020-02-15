@@ -9,12 +9,12 @@
     ],
     "autoload": {
         "psr-4": {
-            "Vdmkbu\\Geolocator\\": "src/"
+            "Vdmkbu\\Geocoder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "Vdmkbu\\Geolocator\\Tests\\": "tests/"
+            "Vdmkbu\\Geocoder\\Tests\\": "tests/"
         }
     },
     "require": {

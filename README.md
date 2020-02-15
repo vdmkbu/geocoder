@@ -6,9 +6,9 @@ require 'vendor/autoload.php';
  // используем библиотеку GuzzleHttp и PSR-совместимый адаптер 
  use GuzzleHttp\Client as GuzzleClient;
  use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
- use Vdmkbu\Geolocator\Types\Address;
- use Vdmkbu\Geolocator\Types\Point;
- use Vdmkbu\Geolocator\YandexGeocoder;
+ use Vdmkbu\Geocoder\Types\Address;
+ use Vdmkbu\Geocoder\Types\Point;
+ use Vdmkbu\Geocoder\YandexGeocoder;
 
  // готовим http-клиент
   $config = [];

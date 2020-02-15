@@ -1,6 +1,6 @@
 <?php
 
-namespace Vdmkbu\Geolocator\Types;
+namespace Vdmkbu\Geocoder\Types;
 
 
 class Location

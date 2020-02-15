@@ -1,11 +1,11 @@
 <?php
 
-namespace Vdmkbu\Geolocator\Tests;
+namespace Vdmkbu\Geocoder\Tests;
 
 use PHPUnit\Framework\TestCase;
-use Vdmkbu\Geolocator\Types\Address;
-use Vdmkbu\Geolocator\Types\Point;
-use Vdmkbu\Geolocator\YandexGeocoder;
+use Vdmkbu\Geocoder\Types\Address;
+use Vdmkbu\Geocoder\Types\Point;
+use Vdmkbu\Geocoder\YandexGeocoder;
 use GuzzleHttp\Client as GuzzleClient;
 use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
 

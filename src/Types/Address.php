@@ -1,9 +1,9 @@
 <?php
 
-namespace Vdmkbu\Geolocator\Types;
+namespace Vdmkbu\Geocoder\Types;
 
 
-use Vdmkbu\Geolocator\Interfaces\GeoObject;
+use Vdmkbu\Geocoder\Interfaces\GeoObject;
 
 class Address implements GeoObject
 {

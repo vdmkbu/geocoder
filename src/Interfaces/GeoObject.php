@@ -1,6 +1,6 @@
 <?php
 
-namespace Vdmkbu\Geolocator\Interfaces;
+namespace Vdmkbu\Geocoder\Interfaces;
 
 
 interface GeoObject

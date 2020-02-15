@@ -1,9 +1,9 @@
 <?php
 
-namespace Vdmkbu\Geolocator\Tests\Types;
+namespace Vdmkbu\Geocoder\Tests\Types;
 
 use PHPUnit\Framework\TestCase;
-use Vdmkbu\Geolocator\Types\Address;
+use Vdmkbu\Geocoder\Types\Address;
 
 class AddressTest extends TestCase
 {

@@ -1,10 +1,10 @@
 <?php
 
-namespace Vdmkbu\Geolocator;
+namespace Vdmkbu\Geocoder;
 
 
 use Psr\Http\Client\ClientExceptionInterface;
-use Vdmkbu\Geolocator\Interfaces\GeoObject;
+use Vdmkbu\Geocoder\Interfaces\GeoObject;
 use Psr\Http\Client\ClientInterface;
 use Laminas\Diactoros\RequestFactory;
 
