@@ -13,7 +13,7 @@ require 'vendor/autoload.php';
  // готовим http-клиент
   $config = [];
   $guzzle = new GuzzleClient($config);
-  $adapter = new GuzzleAdapter($guzzle);
+  $client = new GuzzleAdapter($guzzle);
   
   $api_key = 'YANDEX_API_KEY';
   $geocoder = new YandexGeocoder($client, $api_key);
