@@ -23,7 +23,7 @@ class Address implements GeoObject
         return $this->address;
     }
 
-    public function getData($response)
+    public function getData(\StdClass $response)
     {
         list($lng, $lat) = explode(' ',$response->response->GeoObjectCollection->featureMember[0]->GeoObject->Point->pos);
 

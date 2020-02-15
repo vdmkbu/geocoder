@@ -6,6 +6,8 @@ use PHPUnit\Framework\TestCase;
 use Vdmkbu\Geolocator\Types\Address;
 use Vdmkbu\Geolocator\Types\Point;
 use Vdmkbu\Geolocator\YandexGeocoder;
+use GuzzleHttp\Client as GuzzleClient;
+use Http\Adapter\Guzzle6\Client as GuzzleAdapter;
 
 class GecoderTest extends TestCase
 {
@@ -15,7 +17,10 @@ class GecoderTest extends TestCase
         $dotenv = \Dotenv\Dotenv::createImmutable(__DIR__);
         $dotenv->load();
 
-        $client = null;
+        $config = [];
+        $guzzle = new GuzzleClient($config);
+        $client = new GuzzleAdapter($guzzle);
+
         $api_key = getenv('YANDEX_API_KEY');
 
         $geocoder = new YandexGeocoder($client, $api_key);

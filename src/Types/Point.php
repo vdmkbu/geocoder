@@ -23,7 +23,7 @@ class Point implements GeoObject
         return $this->point;
     }
 
-    public function getData($response)
+    public function getData(\StdClass $response)
     {
         $components = $response->response->GeoObjectCollection->featureMember[0]->GeoObject->metaDataProperty->GeocoderMetaData->Address->Components;
 
