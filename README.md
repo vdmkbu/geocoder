@@ -1,5 +1,11 @@
 ##### Получаем координаты по переданному адресу или адрес по переданным координатам
 [https://tech.yandex.ru/maps/geocoder/doc/desc/concepts/about-docpage/](https://tech.yandex.ru/maps/geocoder/doc/desc/concepts/about-docpage/)
+
+##### install
+```
+composer require vdmkbu/geocoder
+```
+##### usage
 ```php
 require 'vendor/autoload.php';
 
